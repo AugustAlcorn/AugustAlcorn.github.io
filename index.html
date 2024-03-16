@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>August Alcorn</title>
+        <title>PAGE TITLE/title>
         <link rel="icon" href="me.jpg" type="image/jpg">
         <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+    <style>
+    body {
+        font-family: Helvetica, sans-serif;
+        margin: 20px;
+        background-color: #f5f5f5;
+    }
+    hr {
+        border: 1px solid #ddd;
+        margin: 20px 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .enter-button {
+        padding: 10px 20px;
+        background-color: #800080; /* Dark unsaturated purple */
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+
+    .enter-button:hover {
+        background-color: #6a006a; /* Darker shade of purple on hover */
+    }
+    </style>
+    <head>  
     <body>
         <nav>
             <a href="index.html">Home</a>
@@ -17,31 +60,7 @@
             <a href="thegame.html">Don't click</a>
 
         </nav>
-        <h1>I am August Alcorn!</h1>
-        <hr>
-        <p>Hello! I'm August Alcorn (They/Them). I was born on 
-            December 19, 1995, and I'm currently 
-            a student at Mid Michigan College. I 
-            have a passion for video games, particularly 
-            in genres like open-world, survival, MMO, 
-            racing, and FPS. The GTA franchise holds a 
-            special place in my heart as my favorite series. 
-            Outside of gaming, I'm interested in 
-            cybersecurity and am in the process of learning 
-            to code. My fiance is Amanda Adkins, and my 
-            favorite color is a dark, unsaturated purple, 
-            similar to plum.</p>
-        <h1 style="color:purple">Here's a photo of me!</h1>
-        <hr>
-        <img title="Me!" src="me.jpg" alt="fuck" width="236" height="240">
-        <h1 style="color:maroon">Here's a photo of my mom looking angry!</h1>
-        <hr>
-        <img src="mom.jpg" width="324" height="576" title="a very old picture">
-        <form action="save_data.php" method="post">
-            <label for="userInput">Enter your text:</label>
-            <input type="text" id="userInput" name="userInput">
-            <input type="submit" value="Submit">
-        </form>
-    
+        <h1>PAGE HEADER</h1>
+	    <a href="home.html" class="enter-button">Enter</a>
     </body>
 </html>
