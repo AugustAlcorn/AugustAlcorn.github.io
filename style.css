@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 20px;
+}
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
